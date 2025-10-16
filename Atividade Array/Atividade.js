@@ -34,6 +34,6 @@ numeros.forEach((number) => console.log(number * 2));
 //Questão 08
 let idades = [12, 18, 25, 30, 15];
 let maior = idades.filter((maiores) => maiores >= 18);
-let dobro = idades.map((num) => num * 2);
+let dobro = maior.map((num) => num * 2);
 console.log("Idades de maior:", maior);
 console.log("Idades dobradas:", dobro)
